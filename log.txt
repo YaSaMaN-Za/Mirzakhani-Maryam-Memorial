@@ -1,0 +1,61 @@
+
+> mirzakhani-maryam-memorial@0.0.0 build
+> vite build
+
+[36mvite v8.3.4 [32mbuilding client environment for production...[36m[39m
+transforming...
+
+/src/style.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+✓ 16 modules transformed.
+[31m✗[39m Build failed in 127ms
+[31merror during build:
+[31mBuild failed with 3 errors:
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve './assets/hero.png' in src/App.jsx
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/App.jsx:2:21 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m2 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249mh[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mI[0m[38;5;249mm[0m[38;5;249mg[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"./assets/hero.png"[38;5;249m;[0m
+ [38;5;240m  │[0m                     ─────────┬─────────  
+ [38;5;240m  │[0m                              ╰─────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/App.jsx' is imported by the following path:
+ [38;5;240m  │[0m         - src/App.jsx
+ [38;5;240m  │[0m         - src/main.jsx
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve './assets/react.svg' in src/App.jsx
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/App.jsx:3:23 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m3 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mL[0m[38;5;249mo[0m[38;5;249mg[0m[38;5;249mo[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"./assets/react.svg"[38;5;249m;[0m
+ [38;5;240m  │[0m                       ──────────┬─────────  
+ [38;5;240m  │[0m                                 ╰─────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/App.jsx' is imported by the following path:
+ [38;5;240m  │[0m         - src/App.jsx
+ [38;5;240m  │[0m         - src/main.jsx
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve './assets/vite.svg' in src/App.jsx
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/App.jsx:4:22 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m4 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249mv[0m[38;5;249mi[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mL[0m[38;5;249mo[0m[38;5;249mg[0m[38;5;249mo[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"./assets/vite.svg"[38;5;249m;[0m
+ [38;5;240m  │[0m                      ─────────┬─────────  
+ [38;5;240m  │[0m                               ╰─────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/App.jsx' is imported by the following path:
+ [38;5;240m  │[0m         - src/App.jsx
+ [38;5;240m  │[0m         - src/main.jsx
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+[31m
+    at aggregateBindingErrorsIntoJsError (file:///C:/Users/PC/Desktop/work/node/node12/Mirzakhani-Maryam-Memorial/node_modules/rolldown/dist/shared/error-CBG33oNV.mjs:49:18)
+    at unwrapBindingResult (file:///C:/Users/PC/Desktop/work/node/node12/Mirzakhani-Maryam-Memorial/node_modules/rolldown/dist/shared/error-CBG33oNV.mjs:19:128)
+    at #build (file:///C:/Users/PC/Desktop/work/node/node12/Mirzakhani-Maryam-Memorial/node_modules/rolldown/dist/shared/rolldown-BYX6bV3R.mjs:146:34)
+    at async buildEnvironment (file:///C:/Users/PC/Desktop/work/node/node12/Mirzakhani-Maryam-Memorial/node_modules/vite/dist/node/chunks/node.js:34716:66)
+    at async Object.build (file:///C:/Users/PC/Desktop/work/node/node12/Mirzakhani-Maryam-Memorial/node_modules/vite/dist/node/chunks/node.js:35137:19)
+    at async Object.buildApp (file:///C:/Users/PC/Desktop/work/node/node12/Mirzakhani-Maryam-Memorial/node_modules/vite/dist/node/chunks/node.js:35134:153)
+    at async CAC.<anonymous> (file:///C:/Users/PC/Desktop/work/node/node12/Mirzakhani-Maryam-Memorial/node_modules/vite/dist/node/cli.js:780:3) {
+  errors: [Getter/Setter]
+}[39m
