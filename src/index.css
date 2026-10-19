@@ -13,7 +13,6 @@
   --gold: #7a4f11;
   --on-accent: #ffffff;
 }
-
 .dark {
   --paper: #0e121a;
   --surface: #151b27;
@@ -135,6 +134,7 @@
         animation: none;
     }
 
+    
     *,
     *::before,
     *::after {
