@@ -1,7 +1,5 @@
 @import "tailwindcss";
-
 @custom-variant dark (&:where(.dark, .dark *));
-
 :root {
   --paper: #f9f7f2;
   --surface: #ffffff;
@@ -133,8 +131,6 @@
     .disk-spin {
         animation: none;
     }
-
-    
     *,
     *::before,
     *::after {
