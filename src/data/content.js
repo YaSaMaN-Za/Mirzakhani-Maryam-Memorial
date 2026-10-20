@@ -10,5 +10,4 @@ export const navLinks = [
 {id :"research", label:"Research & Legacy"},
 {id :"timeline", label:"Timeline"},
 {id :"remembrance", label:"Remembrance"},
-
 ]
