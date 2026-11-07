@@ -1,15 +1,40 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Mirzakhani-Maryam-Memorial/favicons.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mirzakhani-maryam-memorial</title>
-     <link href="/src/style.css" rel="stylesheet">
-    <script type="module" crossorigin src="/Mirzakhani-Maryam-Memorial/assets/index-DAyLOu08.js"></script>
-    <link rel="stylesheet" crossorigin href="/Mirzakhani-Maryam-Memorial/assets/index-CCDESTau.css">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/Mirzakhani-Maryam-Memorial/favicons.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Maryam Mirzakhani Memorial</title>
+
+  <link href="/src/style.css" rel="stylesheet">
+
+  <meta
+      name="description"
+      content="An independent educational tribute to Maryam Mirzakhani (1977-2017), mathematician and the first woman to receive the Fields Medal."
+    />
+    <meta name="theme-color" content="#f9f7f2" />
+
+    <script>
+      (function () {
+        try {
+          let stored = localStorage.getItem("mm-theme");
+          let theme =
+            stored === "dark" || stored === "light"
+              ? stored
+              : window.matchMedia("(prefers-color-scheme:dark)").matches
+                ? "dark"
+                : "light";
+          if (theme === "dark") document.documentElement.classList.add("dark");
+          document.documentElement.style.colorScheme = theme;
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/Mirzakhani-Maryam-Memorial/assets/index-Cp-EIFvL.js"></script>
+    <link rel="stylesheet" crossorigin href="/Mirzakhani-Maryam-Memorial/assets/index-gyPjpNis.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
   </body>
 </html>
