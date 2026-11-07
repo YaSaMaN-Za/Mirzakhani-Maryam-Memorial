@@ -21,11 +21,11 @@ export default function Hero() {
           <Reveal delay={80}>
             <h1
               id="hero-title"
-              className="mt-4 font-serif text-5xl font-semibold leading-[1.05] tracking-tight text-ink sm:text-6xl lg:text-7xl"
+              className="mt-4 font-serif text-5xl font-semibold leading-[1.05] tracking-tight text-ink sm:text-6xl lg:text-7xl bg-gradient-to-r from-[#7a4f11] via-[#f8e58f] to-[#8c6b23] bg-clip-text text-transparent"
             >
               {person.name}
             </h1>
-            <p lang="fa" dir="rtl" className="mt-3 w-fit text-2xl text-gold sm:text-3xl">
+            <p lang="fa" dir="rtl" className="mt-3 w-fit text-2xl text-gold sm:text-3xl bg-gradient-to-r from-[#D4A744] via-[#f8e58f] to-[#8c6b23] bg-clip-text text-transparent">
               {person.persianName}
             </p>
           </Reveal>

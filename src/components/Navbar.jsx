@@ -38,7 +38,7 @@ export default function Navbar({ theme, onToggleTheme }) {
       >
         <a
           href="#top"
-          className="font-serif text-lg font-semibold tracking-tight text-ink hover:text-accent"
+          className="font-serif text-lg font-semibold tracking-tight text-ink hover:text-accent  leading-none bg-gradient-to-r from-[#D4A744] via-[#f8e58f] to-[#8c6b23] bg-clip-text text-transparent"
         >
           {person.name}
         </a>
@@ -90,9 +90,8 @@ export default function Navbar({ theme, onToggleTheme }) {
                     href={`#${link.id}`}
                     onClick={closeMenu}
                     aria-current={active ? 'true' : undefined}
-                    className={`block rounded-lg px-3 py-3 text-base font-medium transition-colors hover:bg-accent-soft hover:text-accent ${
-                      active ? 'text-accent' : 'text-ink'
-                    }`}
+                    className={`block rounded-lg px-3 py-3 text-base font-medium transition-colors hover:bg-accent-soft hover:text-accent ${active ? 'text-accent' : 'text-ink'
+                      }`}
                   >
                     {link.label}
                   </a>
