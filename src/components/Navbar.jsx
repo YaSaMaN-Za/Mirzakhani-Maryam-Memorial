@@ -3,6 +3,7 @@ import { FiMenu, FiX } from 'react-icons/fi'
 import { navLinks, person } from '../data/content'
 import { useActiveSection } from '../hooks/useActiveSection'
 import ThemeToggle from './ThemeToggle'
+import portrait from "../assets/maryam2.webp"
 
 const sectionIds = navLinks.map((link) => link.id)
 
@@ -36,12 +37,10 @@ export default function Navbar({ theme, onToggleTheme }) {
         aria-label="Primary"
         className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-5 sm:px-8"
       >
-        <a
-          href="#top"
-          className="font-serif text-lg font-semibold tracking-tight text-ink hover:text-accent  leading-none bg-gradient-to-r from-[#D4A744] via-[#f8e58f] to-[#8c6b23] bg-clip-text text-transparent"
-        >
-          {person.name}
-        </a>
+        <a href="#top" className="flex items-center gap-2 font-serif text-lg font-bold tracking-tight bg-gradient-to-r from-[#7a4f11] to-[#D4A744] bg-clip-text text-transparent">
+  <img src={portrait} alt="Maryam" className="w-7 h-7 rounded-full object-cover border border-line" />
+  {person.name}
+</a>
 
         <div className="flex items-center gap-2">
           <ul className="hidden items-center gap-1 lg:flex">

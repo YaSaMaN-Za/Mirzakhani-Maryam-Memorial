@@ -3,6 +3,8 @@ import { hero, person } from '../data/content'
 import PoincareDisk from './PoincareDisk'
 import Portrait from './Portrait'
 import Reveal from './Reveal'
+import portrait from "../assets/maryam.webp"
+
 
 export default function Hero() {
   return (
@@ -25,6 +27,7 @@ export default function Hero() {
             >
               {person.name}
             </h1>
+            <img src={portrait} alt="Maryam" className="my-6 w-88 h-32 object-cover rounded-lg border border-[#D4A744] shadow-md" />
             <p lang="fa" dir="rtl" className="mt-3 w-fit text-2xl text-gold sm:text-3xl bg-gradient-to-r from-[#D4A744] via-[#f8e58f] to-[#8c6b23] bg-clip-text text-transparent">
               {person.persianName}
             </p>
